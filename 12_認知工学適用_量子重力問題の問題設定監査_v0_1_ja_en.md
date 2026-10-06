@@ -7,6 +7,8 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
+
 > **位置づけ**：本稿は量子重力理論を構築する物理学論文ではない。一般相対論と量子論の非整合を前に、認知工学から「そもそも何を同じ対象として統合しようとしているのか」「統合問題そのものはどの条件で成立するのか」を監査する。
 
 ---
@@ -337,9 +339,19 @@ Mが未固定なら、
 
 # Cognitive-Engineering Audit of the Quantum-Gravity Problem
 
-**Version**: v0.1
+**Version**: v0.1  
+**Revision date**: 2026-10-07  
+**Author**: がっちむち♂  
+**Writing assistance**: LLM  
+**Authoritative language**: Japanese
 
-This paper does not propose a quantum-gravity theory. It audits the problem statement itself.
+
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`This paper does not propose a quantum-gravity theory. It audits the problem statement itself.
 
 General relativity and quantum theory assign different structural roles to spacetime, time, states, background structure, and measurement. Standard quantum-gravity literature explicitly recognizes a “problem of time” arising from incompatible notions of time.
 
