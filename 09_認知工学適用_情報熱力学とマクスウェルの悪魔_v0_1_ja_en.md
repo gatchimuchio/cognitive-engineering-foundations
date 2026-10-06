@@ -7,6 +7,8 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
+
 > **位置づけ**：本稿は熱力学・統計力学の数式や実験結果そのものを否定する論文ではない。認知工学から、対象・系境界・状態・相関・測定・記録・制御・「情報」という語の成立順序を監査する。
 
 > **成立判定**：本稿の定義では、情報を自然界に独立して存在する物理実体として置く根拠が示されない限り、**情報熱力学は独立した自然科学としては成立しない**。ただし、そこで得られる有効な数式・実験・制御結果まで無効になるとはしない。
@@ -263,9 +265,19 @@ information → work
 
 # Cognitive-Engineering Audit of Information Thermodynamics and Maxwell's Demon
 
-**Version**: v0.1
+**Version**: v0.1  
+**Revision date**: 2026-10-07  
+**Author**: がっちむち♂  
+**Writing assistance**: LLM  
+**Authoritative language**: Japanese
 
-This paper does not reject thermodynamics, statistical mechanics, Landauer-type physical constraints, or experimentally observed work and heat. It audits the step by which physical states, distinctions, correlations, memory states, and control relations are relabeled as “information” and then promoted into an independent physical ontology.
+
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`This paper does not reject thermodynamics, statistical mechanics, Landauer-type physical constraints, or experimentally observed work and heat. It audits the step by which physical states, distinctions, correlations, memory states, and control relations are relabeled as “information” and then promoted into an independent physical ontology.
 
 Maxwell's demon is treated as a thought-experiment compression of sensing, memory, control, actuation, power, reset, and the controlled system. Once the full physical system is closed, ordinary physical states, correlations, interactions, and energy flows remain.
 
