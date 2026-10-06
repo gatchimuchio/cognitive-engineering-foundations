@@ -7,6 +7,8 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
+
 > **位置づけ**：本稿は自然選択・適応・遺伝・進化という現象を否定する論文ではない。認知工学から、「進化を説明する理論」と「生命が生きていることの最上流説明」を同一視していないかを監査する。
 
 > **用語規定**：本稿でいう「ダーウィンの過ち」は、ダーウィン本人の全著作へ史料的責任を一括帰属する語ではない。**自然選択という下流の進化機構を、生命そのものの最上流原理へ昇格させる説明階層の越境**を指す認知工学上の名称である。
@@ -255,9 +257,19 @@ life exists in order to survive/reproduce
 
 # Cognitive-Engineering Audit of Evolution and “Darwin's Error”
 
-**Version**: v0.1
+**Version**: v0.1  
+**Revision date**: 2026-10-07  
+**Author**: がっちむち♂  
+**Writing assistance**: LLM  
+**Authoritative language**: Japanese
 
-This paper does not reject natural selection, adaptation, inheritance, reproduction, or evolution. It separates explanatory levels.
+
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`This paper does not reject natural selection, adaptation, inheritance, reproduction, or evolution. It separates explanatory levels.
 
 Evolutionary theory explains how populations change across generations under variation, inheritance, selection, reproduction, and other mechanisms. The paper argues that this downstream success should not be promoted into an upstream answer to why life is alive at all.
 
