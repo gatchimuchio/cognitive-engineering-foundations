@@ -1,7 +1,7 @@
 # 公開・言語・命名・理論状態ポリシー
 ## Publication / Language / Naming / Theory-State Policy
 
-**版**：v1.3.2  
+**版**：v1.3.3  
 **改訂日**：2026-10-07  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
@@ -31,7 +31,7 @@
 - **Translation**：日本語原典と節・意味を対応させた全文翻訳
 - **Summary Projection**：日本語原典から要点を抽出した要約射影
 
-要約を `Translation` と表示してはならない。現行00〜07の英語部は、全文対訳ではなく **English Summary Projection** として扱う。
+要約を `Translation` と表示してはならない。現行00〜08の英語部は、全文対訳ではなく **English Summary Projection** として扱う。
 
 意味が衝突した場合、日本語原典を優先する。
 
@@ -121,6 +121,7 @@ Global final closure = not claimed
 - トリニティ原理は「世界は3で閉じる／3が世界構築の最小構造」という三項最小性を現行原理命題として保持しつつ、X / R / Mを唯一絶対の表現へ固定しない。
 - 閉包位相Ψは「安定」という自分の観測語を固定実体化しない。
 - 神の領域原理（仮）は自身を最終真理へ固定しない。
+- 意識論は、意識・主観・自我・三観測チャネル・外界拘束という現在の分別を固定実体化せず、構造記述と起動因果を分離する。
 - 適用論文は監査器・ゲーム世界等の自分の切り出しを再監査する。
 
 ## 3.8 原理・対象と有限記述の非同一
@@ -229,6 +230,17 @@ HDSについては第7章の公開境界を優先する。
 ```
 
 `（仮）` を保持する。
+
+## 5.5 意識論
+
+```text
+正式名称：意識論
+英語説明：Theory of Consciousness
+```
+
+`（仮）` は付さない。
+
+本稿でいう意識論は、意識・主観・自我を固定内面実体として断定する理論ではなく、外界拘束・自己／非自己・認知・メタ認知・一人称的制御原点・時間安定結果を分別する現行公開Projectionである。
 
 ---
 
@@ -347,10 +359,11 @@ theory conformance / ethical boundary = each specification
 ```text
 00_認知工学とは何か_v0_4_ja_en.md
 01_情報工学における言語基底論_v0_4_ja_en.md
-02_Umami_Gap_v1_2_ja_en.md
+02_Umami_Gap_v1_3_ja_en.md
 03_トリニティ原理_v1_2_ja_en.md
-04_閉包位相Ψ_v1_1_ja_en.md
+04_閉包位相Ψ_v1_2_ja_en.md
 05_神の領域原理（仮）_v1_3_ja_en.md
+08_意識論_v0_1_ja_en.md
 06_トリニティ原理適用_論証監査_v0_5_ja_en.md
 07_トリニティ原理適用_ゲーム理論と均衡_v0_6_ja_en.md
 ```
@@ -384,6 +397,7 @@ Canonical names:
 神の領域原理（仮） / 神域原理（仮）
 トリニティ原理 / Trinity Principle
 閉包位相Ψ / Closure Phase Ψ
+意識論 / Theory of Consciousness
 Human Decision-making System（仮）
 人間意思決定理論（仮）
 HDS
