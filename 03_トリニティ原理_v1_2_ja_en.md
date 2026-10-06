@@ -7,7 +7,7 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
-> **言語規定**：本稿は日本語原典を正本とする。英語部は後段の Summary Projection であり、独立した正本ではない。
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
 
 > **原理状態規定**：トリニティ原理の原液は「世界は3で閉じる」「世界を構築する要素は3」「3が最小構造」という三項性そのものにある。X / R / M は、その原理を現在の認知世界で操作・監査可能にした代表的Projectionであり、原理そのものと同一視しない。
 
@@ -422,7 +422,11 @@ X / R / Mは、この三項性を操作可能にした代表的Projectionであ�
 **Writing assistance**: LLM  
 **Authoritative language**: Japanese  
 
-> This English section is a condensed downstream summary projection. The Japanese original is authoritative.
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`
 
 ## Core claim
 
