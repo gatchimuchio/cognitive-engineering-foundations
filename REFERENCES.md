@@ -85,6 +85,74 @@
 
 ---
 
+# 4.1 情報熱力学・マクスウェルの悪魔
+
+09番文書が、既存の情報熱力学が実際にどのような対象・数理・実験を扱っているかを確認するための座標。
+
+- **Parrondo, J. M. R., Horowitz, J. M., & Sagawa, T. (2015). “Thermodynamics of information.” Nature Physics 11, 131–139.**  
+  https://www.nature.com/articles/nphys3230
+
+- **Georgescu, I. (2021). “60 years of Landauer’s principle.” Nature Reviews Physics 3, 770.**  
+  https://www.nature.com/articles/s42254-021-00400-8
+
+- **Sagawa, T. (2018). “Second law, entropy production, and reversibility in thermodynamics of information.”**  
+  https://arxiv.org/abs/1712.06858
+
+これらは、情報が認知から独立した物理実体であること、または「情報熱力学が独立自然科学として成立する」という09番文書の成立判定を証明・反証するための権威ではない。既存分野側の定義・実験・数理の確認にのみ使う。
+
+---
+
+# 4.2 進化論・自然選択・適応
+
+10番文書が、自然選択・適応・繁殖成功に関する標準的な進化生物学の説明範囲を確認するための座標。
+
+- **Gardner, A. (2017). “The purpose of adaptation.” Interface Focus.**  
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC5566815/
+
+- **Lewens, T. (2010). “Natural selection then and now.” Biological Reviews 85(4), 829–835.**  
+  https://doi.org/10.1111/j.1469-185X.2010.00128.x
+
+- **Orr, H. A. (2005). “The genetic theory of adaptation: a brief history.” Nature Reviews Genetics 6, 119–127.**  
+  https://www.nature.com/articles/nrg1523
+
+10番文書は自然選択・適応・進化を否定するものではない。これらの文献は、進化理論が何を説明しているかを確認し、「生命がなぜ生きるのか」という上流問いとの説明階層を分離するために参照する。
+
+---
+
+# 4.3 相対性理論・時間・空間・時空
+
+11番文書が、相対性理論における時間・空間・時空・観測者・座標の標準的な意味を確認するための座標。
+
+- **Einstein Online — “spacetime.”**  
+  https://www.einstein-online.info/en/explandict/spacetime/
+
+- **Einstein Online — General Relativity / Einstein’s geometric gravity.**  
+  https://www.einstein-online.info/en/GeomGravity/
+
+11番文書は相対性理論の予測・観測的成功を否定しない。これらは、数学的・観測的記述と時間・空間の存在論を認知工学上で分離する際の外部座標である。
+
+---
+
+# 4.4 量子重力・時間の問題
+
+12番文書が、一般相対論と量子論の接続で実際に議論されている「時間の問題」等を確認するための座標。
+
+- **Unruh, W. G., & Wald, R. M. (1989). “Time and the interpretation of canonical quantum gravity.” Physical Review D 40, 2598.**  
+  https://doi.org/10.1103/PhysRevD.40.2598
+
+- **Rovelli, C. (1991). “Time in quantum gravity: An hypothesis.” Physical Review D 43, 442.**  
+  https://doi.org/10.1103/PhysRevD.43.442
+
+- **Wald, R. M. (1993). “Proposal for solving the problem of time in canonical quantum gravity.” Physical Review D 48, R2377.**  
+  https://doi.org/10.1103/PhysRevD.48.R2377
+
+- **Anderson, E. (2012). “Problem of time in quantum gravity.” Annalen der Physik 524, 757–786.**  
+  https://doi.org/10.1002/andp.201200147
+
+これらは量子重力の存在論的一元化を証明する資料ではない。12番文書では、既存物理学自身が時間概念の不整合を問題として扱っていることを確認した上で、「統合問題そのものの成立条件」を一段上から監査する。
+
+---
+
 # 5. 公開・引用・ライセンス
 
 - **GitHub Docs — Referencing and citing content**  
