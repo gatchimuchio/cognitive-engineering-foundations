@@ -1,4 +1,12 @@
 # archive
+
+## 2026-10-07 翻訳階層見直し前スナップショット
+
+`legacy/2026-10-07/pre_translation_hierarchy_review/` には、J0/T1/T2/T3/W の翻訳ヒエラルキー導入前の README・公開ポリシー・参考文献を保存する。
+
+現行の翻訳制度は root の `TRANSLATION_POLICY.md` を正とする。
+
+
 ## 旧版・旧適用例・旧ツール
 
 このディレクトリは、`cognitive-engineering-foundations` の過去版・旧適用例・旧ツールを履歴として保存する領域である。
