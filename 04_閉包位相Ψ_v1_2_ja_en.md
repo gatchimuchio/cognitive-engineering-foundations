@@ -395,6 +395,24 @@ X / R / Mは、その原理を観測対象・関係・閉包条件へ射影し�
 
 ---
 
+# 13.1 意識論との関係
+
+意識論は、外界拘束・自己／非自己・認知・メタ認知・一人称的制御原点・自我の時間安定を扱う。
+
+閉包位相Ψは、そのうち外部へ反復観測可能な安定署名を切り出す操作概念として接続し得る。
+
+```text
+閉包位相Ψが観測された
+≠
+意識が証明された
+≠
+自我が実体として証明された
+```
+
+自己同一性のロバスト性をΨで観測することは可能だが、それは意識論の存在論を代替しない。
+
+---
+
 # 14. 自己適用
 
 Ψは「安定した署名」を扱う。
@@ -505,7 +523,7 @@ Because Ψ concerns stable signatures, this document audits whether its own use 
 
 ## Related public principles
 
-The **Trinity Principle** states triadic minimality: a cognition-after world closes in three. X / R / M is a representative operational Projection used here to close target, relation, observation, and stopping conditions. **神の領域原理（仮）** prevents the operational variable from being promoted into inner essence or the world-itself.
+The **Trinity Principle** states triadic minimality: a cognition-after world closes in three. X / R / M is a representative operational Projection used here to close target, relation, observation, and stopping conditions. **神の領域原理（仮）** prevents the operational variable from being promoted into inner essence or the world-itself. The **Theory of Consciousness** may use Ψ to observe externally stable identity signatures, but Ψ does not prove consciousness or ego.
 
 ## Conclusion
 
