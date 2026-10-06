@@ -6,7 +6,7 @@
 **Translation status**: CURRENT  
 **Authority**: Non-authoritative and non-exhaustive  
 
-**版**：v1.4.3  
+**版**：v1.4.4  
 **改訂日**：2026-10-07  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
@@ -44,6 +44,18 @@ T2 / English Summary Projection
 ```
 
 として扱う。
+
+同時に、現行番号付き正本群00〜12＋05Aの全14本について、`translations/en/full/` に **T1 / Aligned Full Translation** を配置し、2026-10-07時点で全て `CURRENT` とする。
+
+```text
+root Part II
+= T2 English Summary Projection
+
+translations/en/full/
+= T1 Aligned Full Translation
+```
+
+T1は節対応全文翻訳であり国際共有・全文読解用の高忠実度下流資料として扱うが、正本ではない。意味上の最終裁定はJ0日本語正本に置く。
 
 意味衝突・定義衝突・関係衝突・翻訳残差が生じた場合、日本語正本を優先する。
 
