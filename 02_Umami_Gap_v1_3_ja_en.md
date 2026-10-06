@@ -7,7 +7,7 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
-> **言語規定**：本稿は日本語原典を正本とする。英語版は後段の翻訳である。
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
 
 > **理論状態規定**：旨味ギャップ、`intelligence` の圧縮構造、C / Ψ / E 等の分別は、v1.3時点の認知・言語・AI観測における現行Projectionである。現行用途では強く採用するが、変数集合・境界・語彙圧縮の仕方を最終形へ固定しない。
 
@@ -310,9 +310,13 @@ AIにおける `intelligence` の一語圧縮は、能力、閉包、判断、�
 **Writing assistance**: LLM  
 **Authoritative language**: Japanese
 
-> The Japanese original above is authoritative. This English section is a condensed downstream summary projection, not a full line-by-line translation.
 
-## Theory-state rule
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`## Theory-state rule
 
 The Umami Gap, the analysis of `intelligence`, and the current separation of C / Ψ / E are version-bounded Projections. They are strongly used under the present engineering purpose but are not treated as a final variable set or ontology.
 
