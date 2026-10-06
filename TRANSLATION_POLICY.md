@@ -1,7 +1,7 @@
 # 日本語基底・翻訳階層・翻訳制度
 ## Translation Hierarchy and Governance Policy
 
-**版**：v1.2  
+**版**：v1.3  
 **改訂日**：2026-10-07  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
