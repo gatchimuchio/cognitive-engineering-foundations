@@ -26,7 +26,7 @@ archive 内の旧版は、歴史状態を保存するため原則として無言
 ## 旧適用論文の現行対応先
 
 - `legacy/applications/TCP_APPLICATION_ARGUMENT_AUDIT_FRAMEWORK.md`  
-  → [`../06_トリニティ原理適用_論証監査_v0_5_ja_en.md`](../06_トリニティ原理適用_論証監査_v0_5_ja_en.md)
+  → [`../06_トリニティ原理適用_論証監査_v0_6_ja_en.md`](../06_トリニティ原理適用_論証監査_v0_6_ja_en.md)
 
 - `legacy/applications/TCP_APPLICATION_GAME_THEORY_EQUILIBRIUM.md`  
   → [`../07_トリニティ原理適用_ゲーム理論と均衡_v0_7_ja_en.md`](../07_トリニティ原理適用_ゲーム理論と均衡_v0_7_ja_en.md)
@@ -45,4 +45,4 @@ Files under `archive/` are not current canonical specifications. They may contai
 
 For current public specifications and applications, use the numbered documents in the repository root and `PUBLICATION_POLICY.md`.
 
-Current replacements for the two legacy TCP application papers are documents `06` v0.5 and `07` v0.7 in the repository root.
+Current replacements for the two legacy TCP application papers are documents `06` v0.6 and `07` v0.7 in the repository root.
