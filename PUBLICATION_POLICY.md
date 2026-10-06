@@ -6,7 +6,7 @@
 **Translation status**: CURRENT  
 **Authority**: Non-authoritative and non-exhaustive  
 
-**版**：v1.4.2  
+**版**：v1.4.3  
 **改訂日**：2026-10-07  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
@@ -386,7 +386,7 @@ theory conformance / ethical boundary = each specification
 05_神の領域原理（仮）_v1_3_ja_en.md
 05A_原理とは何かと原理判別法_v0_2_ja_en.md
 08_意識論_v0_1_ja_en.md
-06_トリニティ原理適用_論証監査_v0_5_ja_en.md
+06_トリニティ原理適用_論証監査_v0_6_ja_en.md
 07_トリニティ原理適用_ゲーム理論と均衡_v0_7_ja_en.md
 09_認知工学適用_情報熱力学とマクスウェルの悪魔_v0_1_ja_en.md
 10_認知工学適用_進化論とダーウィンの過ち_v0_1_ja_en.md
