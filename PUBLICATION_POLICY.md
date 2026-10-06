@@ -1,7 +1,7 @@
 # 公開・言語・命名・理論状態ポリシー
 ## Publication / Language / Naming / Theory-State Policy
 
-**版**：v1.3.3  
+**版**：v1.3.4  
 **改訂日**：2026-10-07  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
@@ -365,7 +365,7 @@ theory conformance / ethical boundary = each specification
 05_神の領域原理（仮）_v1_3_ja_en.md
 08_意識論_v0_1_ja_en.md
 06_トリニティ原理適用_論証監査_v0_5_ja_en.md
-07_トリニティ原理適用_ゲーム理論と均衡_v0_6_ja_en.md
+07_トリニティ原理適用_ゲーム理論と均衡_v0_7_ja_en.md
 ```
 
 ---
