@@ -57,21 +57,6 @@
 
 ---
 
-# 3.1 既存分野名の制度的使用
-
-次は、「Cognitive Science」「Information Science」という名称が現実の学会・研究共同体で制度的に使用されていることを確認するための外部座標である。
-
-- **Cognitive Science Society**
-  https://cognitivesciencesociety.org/
-
-- **Association for Information Science and Technology (ASIS&T)**
-  https://www.asist.org/
-
-この制度的存在は、00番文書の「認知科学は成立しない」、01番文書の「情報科学は成立しない」という**Scienceとしての成立判定**を証明も反証もしない。
-
-両文書が否定しているのは名称・組織・研究活動の存在ではなく、それぞれの本文で定義したScienceとしての成立性である。
-
----
 # 4. ゲーム理論・均衡
 
 07番文書『トリニティ原理適用：ゲーム理論と均衡』が既存ゲーム理論との共通座標として参照する基礎文献。

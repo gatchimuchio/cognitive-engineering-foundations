@@ -1,8 +1,7 @@
 # 公開・言語・命名・理論状態ポリシー
 ## Publication / Language / Naming / Theory-State Policy
 
-**版**：v1.3.0  
-**改訂日**：2026-10-07  
+**版**：v1.2.1  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
 
@@ -25,13 +24,6 @@
 ```
 
 多言語版は日本語原典から生成された翻訳・射影であり、独立した正本ではない。
-
-多言語部は、その実体に応じて次を明示する。
-
-- **Translation**：日本語原典と節・意味を対応させた全文翻訳
-- **Summary Projection**：日本語原典から要点を抽出した要約射影
-
-要約を `Translation` と表示してはならない。現行00〜07の英語部は、全文対訳ではなく **English Summary Projection** として扱う。
 
 意味が衝突した場合、日本語原典を優先する。
 
@@ -128,43 +120,6 @@ Global final closure = not claimed
 理論、原理、対象、現象と、それらを言語・記号・数式・図・コードで記述した有限文書を同一視しない。
 
 現行文書は公開可能な有限Projectionであり、対象総体を完全同型に回収したとは宣言しない。
-
-## 3.9 主張種別の分離
-
-本文中の記述は、必要に応じて次の種別を区別する。
-
-- **規定・定義**：本体系または当該版が採用する意味・境界・運用条件
-- **観測**：ログ、実験、実装結果、直接確認された事実
-- **外部事実**：外部一次資料等で確認する事実
-- **推論**：観測・定義・前提から導出した解釈
-- **仮説**：現時点で候補として保持する説明
-- **未確認・未知**：確認できていない事項、残差
-
-規定を観測事実として扱わず、仮説を確定事実へ昇格させず、外部事実を権威による理論証明へ転用しない。
-
-## 3.10 Projection責任原則
-
-有限記述と原理・対象を非同一とすることは、現行版の反証逃れを許可しない。
-
-> **現行Projectionが、その版自身の宣言した射程・条件・定義の内部で反証された場合、当該版の該当主張はFAILまたは改訂対象として記録する。**
-
-「反証されたのは文章であり原理そのものではない」という未観測領域を、現行版の救済根拠にしてはならない。
-
-更新する場合は、新しい版として、旧版・反証点・変更理由・影響範囲・保持事項を追跡可能にする。
-
-## 3.11 停止状態の型分離
-
-「分からない」「仕様に反する」「利用境界を越える」「実行系が壊れた」を同じ停止状態へ潰さない。
-
-原則として次を区別する。
-
-- **PASS / ASSERT**：現行目的に必要な局所閉包が成立
-- **SUSPEND**：未観測・未閉包・未定義・決定不能等の認識上の保留
-- **REJECT**：定義矛盾・仕様違反等による論理／仕様上の拒否
-- **OUT-OF-SCOPE**：倫理・公開・適用境界により処理対象外
-- **FAIL**：Runtime、API、実行環境、ログ欠損等の運用障害
-
-各論文は必要な部分集合を採用してよいが、意味の異なる停止理由を無言で同一化しない。
 
 ---
 
@@ -328,31 +283,17 @@ archive 内の記述は、当時の状態を保持するため原則として無
 
 ---
 
-# 12. 適合条件・利用境界と著作権ライセンスの分離
-
-本文中の誓約、禁止、OUT-OF-SCOPE、利用境界は、本理論群に「適合する」と名乗るための意味上・倫理上・運用上の条件である。
-
-これらを、CC BY 4.0 が与える著作権上の許諾へ追加の法的制限を課す条項として扱わない。
+# 12. 現行正本順
 
 ```text
-copyright license = LICENSE
-theory conformance / ethical boundary = each specification
-```
-
-したがって、ライセンス上許可される再利用であっても、本理論群の適合条件を外れた派生物は「神の領域原理（仮）／トリニティ原理／HDS等に適合する実装」とは扱わない。
-
----
-# 13. 現行正本順
-
-```text
-00_認知工学とは何か_v0_4_ja_en.md
-01_情報工学における言語基底論_v0_4_ja_en.md
-02_Umami_Gap_v1_1_ja_en.md
-03_トリニティ原理_v1_1_ja_en.md
-04_閉包位相Ψ_v1_0_ja_en.md
-05_神の領域原理（仮）_v1_1_ja_en.md
-06_トリニティ原理適用_論証監査_v0_4_ja_en.md
-07_トリニティ原理適用_ゲーム理論と均衡_v0_5_ja_en.md
+00_認知工学とは何か_v0_3_ja_en.md
+01_情報工学における言語基底論_v0_3_ja_en.md
+02_Umami_Gap_v1_0_ja_en.md
+03_トリニティ原理_v1_0_ja_en.md
+04_閉包位相Ψ_v0_9_ja_en.md
+05_神の領域原理（仮）_v1_0_ja_en.md
+06_トリニティ原理適用_論証監査_v0_3_ja_en.md
+07_トリニティ原理適用_ゲーム理論と均衡_v0_4_ja_en.md
 ```
 
 ---
@@ -392,7 +333,5 @@ HDS
 Only 神の領域原理（仮） and HDS carry `（仮）` as part of their current names.
 
 For HDS, only the names are public. Internal structure, phases, loops, evaluation design, operation, implementation, reproducible recipes, thresholds, and equivalent reconstructive details remain outside the public scope.
-
-Older public repositories or demos that contain historical HDS projections are legacy artifacts, not current HDS specifications. Their public availability does not expand the current disclosure boundary.
 
 The repository root contains only current canonical public documents. Superseded material is stored under `archive/`.
