@@ -7,7 +7,7 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
-> **言語規定**：本稿は日本語原典を正本とする。英語部は後段の Summary Projection であり、独立した正本ではない。
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
 
 > **理論状態規定**：本稿は、過去の「自我＝結果」「主観＝擬似固定点」「生命制約と世界の抵抗」「認知とメタ認知の再帰」を、現行の神の領域原理（仮）・トリニティ原理・閉包位相Ψと整合するよう再構成した時点付きProjectionである。意識・主観・自我を認知以前の固定実体へ昇格させない。
 
@@ -505,7 +505,11 @@ Human Decision-making System（仮）／人間意思決定理論（仮）／HDS�
 **Writing assistance**: LLM  
 **Authoritative language**: Japanese  
 
-> This English section is a condensed downstream summary projection. The Japanese original is authoritative.
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`
 
 ## Core definition
 
