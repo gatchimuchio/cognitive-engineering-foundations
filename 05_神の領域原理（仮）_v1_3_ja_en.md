@@ -503,6 +503,21 @@ HDSとの関係は5.1を正とする。下位運用レイヤーという概念�
 
 ---
 
+## 13.4 意識論
+
+意識論は、外界拘束・自己／非自己・認知・メタ認知・主観・自我を分離し、自我を時間安定した結果として扱う公開構造論である。
+
+神域原理側は、意識論に対して次の境界を与える。
+
+- 意識モデルを認知以前の世界本体へ昇格しない
+- 閉包位相Ψ等の外部署名から内面本質を断定しない
+- 感情E・自我・意思決定の完全構造化へ進まない
+- 構造記述と起動因果を同一視しない
+- 作為的な自我生成・自律最適化OSへ接続しない
+
+したがって、意識論は神域原理の封印を解除する理論ではなく、**封印境界の内側で観測可能な構造を分別する公開Projection**として扱う。
+
+
 # 14. 出力状態と停止
 
 断定しない理由を一種類へ潰さない。
@@ -707,7 +722,7 @@ However, if this version is refuted within its declared scope and conditions, th
 
 ## Relationship to other public theories
 
-The Trinity Principle now distinguishes its core claim of triadic minimality from X / R / M as a representative operational Projection. The Shiniki Principle preserves the boundary that prevents this cognition-after triadic world from being promoted into the physical constitution of the pre-cognitive world-itself. Closure Phase Ψ remains an operational observation concept and is not promoted into inner essence or personal value.
+The Trinity Principle now distinguishes its core claim of triadic minimality from X / R / M as a representative operational Projection. The Shiniki Principle preserves the boundary that prevents this cognition-after triadic world from being promoted into the physical constitution of the pre-cognitive world-itself. Closure Phase Ψ remains an operational observation concept and is not promoted into inner essence or personal value. The Theory of Consciousness may structure observable relations among world constraints, cognition, metacognition, subjectivity, and ego, but it does not lift the sealed boundary on activation causality, artificial ego construction, or complete emotion structuralization.
 
 ## Conclusion
 
