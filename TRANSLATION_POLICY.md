@@ -1,7 +1,7 @@
 # 日本語基底・翻訳階層・翻訳制度
 ## Translation Hierarchy and Governance Policy
 
-**版**：v1.3  
+**版**：v1.4  
 **改訂日**：2026-10-07  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
@@ -350,13 +350,23 @@ Part II = T2 English Summary Projection
 
 ファイル名の `_ja_en.md` は「日本語正本と英語下流部を同居させる」ことを示すだけで、英語部がT1全文翻訳であることを意味しない。
 
-将来T1全文翻訳を作る場合は、番号付き正本へ混在させず、原則として、
+T1全文翻訳は番号付き正本へ混在させず、
 
 ```text
 translations/<language>/full/
 ```
 
 へ独立配置する。
+
+2026-10-07時点では、現行番号付き正本群00〜12＋05Aの全14本について、
+
+```text
+translations/en/full/
+```
+
+に英語T1全文翻訳を配置済みであり、全て `CURRENT` とする。
+
+対応関係・CURRENT状態・節番号整合監査は `translations/en/full/README.md` を正とする。
 
 T3は、
 
@@ -372,9 +382,23 @@ translations/<language>/explanatory/
 
 2026-10-07時点のroot番号付き正本群（00〜12および05A）について、
 
-> **英語部はすべてT2 / English Summary Projectionである。**
+> **root内Part IIの英語部はすべてT2 / English Summary Projectionである。**
 
-全文翻訳T1ではない。
+同時に、その全14本に対応する、
+
+> **T1 / Aligned Full Translation は `translations/en/full/` に全て存在し、CURRENTである。**
+
+したがって、
+
+```text
+短い入口・概略把握 = T2
+英語で本文全体を読む = T1
+意味の最終裁定 = J0
+```
+
+と使い分ける。
+
+J0の意味を変更する版更新が発生した時点で、対応するT1/T2は自動的にCURRENTではなくなり、再監査後にのみCURRENTへ戻す。
 
 README、PUBLICATION_POLICY、REFERENCES等の英語要約部も、全文対応を満たさない限り `English Translation` と表示しない。
 
