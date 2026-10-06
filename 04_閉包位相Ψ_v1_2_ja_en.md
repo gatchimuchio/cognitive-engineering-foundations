@@ -7,7 +7,7 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
-> **言語規定**：本稿は日本語原典を正本とする。英語版は後段の翻訳である。
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
 
 > **理論状態規定**：閉包位相Ψそのものと、v1.2で採用する「署名残差の同値類」という操作的記述を同一視しない。C / K / Ψ / E / A の分別、観測主体、対象同一性、観測条件、同値関係、安定性、時間範囲はいずれも現行Projectionであり、将来の再監査から免除しない。
 
@@ -466,9 +466,13 @@ X / R / Mは、その原理を観測対象・関係・閉包条件へ射影し�
 **Writing assistance**: LLM  
 **Authoritative language**: Japanese
 
-> The Japanese original above is authoritative. This English section is a condensed downstream summary projection, not a full line-by-line translation.
 
-## Theory-state rule
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`## Theory-state rule
 
 Closure Phase Ψ is not identified with the finite operational definition used in this version. The current C / K / Ψ / E / A separation, target identity, observation conditions, equivalence relation, stability window, and observer frame are all version-bounded Projections.
 
