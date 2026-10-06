@@ -17,9 +17,21 @@
 → 実務上必要な場合のみ英語等へ翻訳
 ```
 
-英語その他の言語は日本語原典の後段翻訳であり、独立した正本ではない。
+英語その他の言語は、日本語正本から派生する下流言語層であり、独立した正本ではない。
 
-現行00〜12の英語部は全文対訳ではなく、**English Summary Projection** として明示する。全文対訳を作る場合のみ `Translation` と表示する。
+翻訳・射影の権限階層は `TRANSLATION_POLICY.md` を正とする。
+
+```text
+J0 日本語正本
+> T1 節対応全文翻訳
+> T2 要約射影
+> T3 解説射影
+> W  作業翻訳
+```
+
+**制度語として `Translation` と呼ぶのはT1だけ**である。
+
+現行00〜12の英語部は全文翻訳ではなく、すべて **T2 / English Summary Projection** として明示する。
 
 ---
 
@@ -44,6 +56,8 @@
 再開放対象は、モデル内の値だけではない。必要なら主体、対象、主体／対象の区別、対象同一性、関係、文脈、時間・空間・因果、目的・価値・評価規則、定義、前提、射程、観測方法、過去判断の意味、理論記述自身まで戻る。
 
 詳細は [`PUBLICATION_POLICY.md`](PUBLICATION_POLICY.md) を正とする。
+
+翻訳・要約・解説の上下関係、用語ロック、翻訳残差、STALE管理は [`TRANSLATION_POLICY.md`](TRANSLATION_POLICY.md) を正とする。
 
 ---
 
@@ -200,15 +214,20 @@ archive 内の文書には、現行方針と異なる、
 
 ---
 
-# English Translation
+# English Summary Projection
 
 ## cognitive-engineering-foundations — Cognitive Engineering Foundations
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Canonical Original (J0)  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive  
 
 This repository manages the publicly disclosed foundational theories, originals, translations, boundaries, and application papers of a Cognitive Engineering theoretical system authored by **がっちむち♂**.
 
 The repository was renamed from `closure-phase-specs` to `cognitive-engineering-foundations` to reflect its current scope: the repository is no longer organized around one closure-phase specification family, but around Cognitive Engineering as the upstream theoretical field.
 
-Japanese is the base and normative language.
+Japanese is the sole authoritative language. Downstream language products follow `TRANSLATION_POLICY.md`: J0 Japanese Canonical Original > T1 Aligned Full Translation > T2 Summary Projection > T3 Explanatory Projection > W Working Translation.
 
 All current documents share a common theory state:
 
