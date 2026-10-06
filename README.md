@@ -33,6 +33,18 @@ J0 日本語正本
 
 現行番号付き正本群の英語部は全文翻訳ではなく、すべて **T2 / English Summary Projection** として明示する。
 
+加えて、現行番号付き正本群 **00〜12＋05Aの全14本**について、節対応全文英訳 **T1 / Aligned Full Translation** を `translations/en/full/` に独立配置する。
+
+```text
+root *_ja_en.md Part II
+= T2 English Summary Projection
+
+translations/en/full/
+= T1 Aligned Full Translation
+```
+
+T1全文英訳の対応表・CURRENT状態・監査結果は [`translations/en/full/README.md`](translations/en/full/README.md) を正とする。
+
 ---
 
 # 共通理論状態
@@ -58,6 +70,8 @@ J0 日本語正本
 詳細は [`PUBLICATION_POLICY.md`](PUBLICATION_POLICY.md) を正とする。
 
 翻訳・要約・解説の上下関係、用語ロック、翻訳残差、STALE管理は [`TRANSLATION_POLICY.md`](TRANSLATION_POLICY.md) を正とする。
+
+英語で論文本文を読む場合は、T2要約ではなく [`translations/en/full/`](translations/en/full/) のT1全文英訳を用いる。
 
 ---
 
@@ -239,6 +253,8 @@ This repository manages the publicly disclosed foundational theories, originals,
 The repository was renamed from `closure-phase-specs` to `cognitive-engineering-foundations` to reflect its current scope: the repository is no longer organized around one closure-phase specification family, but around Cognitive Engineering as the upstream theoretical field.
 
 Japanese is the sole authoritative language. Downstream language products follow `TRANSLATION_POLICY.md`: J0 Japanese Canonical Original > T1 Aligned Full Translation > T2 Summary Projection > T3 Explanatory Projection > W Working Translation.
+
+Full T1 English translations for all 14 current numbered canonical documents are available under `translations/en/full/`. The English sections embedded in root files remain T2 summaries.
 
 All current documents share a common theory state:
 
