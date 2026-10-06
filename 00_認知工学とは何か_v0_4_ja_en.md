@@ -7,7 +7,7 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
-> **言語規定**：本稿は日本語原典を正本とする。英語版は日本語原典成立後に作成された翻訳であり、意味が衝突する場合は日本語原典を優先する。
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
 
 > **理論状態規定**：本稿の定義・分類・関係・批判・結論は、v0.4時点の認知世界・目的・観測範囲における現行Projectionである。現行版内部では監査可能性のために明示的に固定するが、世界本体・最終定義・永久不変の分類へ昇格させない。
 
@@ -383,9 +383,13 @@ Science は観測可能な現象・作用・関係について何が成立して
 **Writing assistance**: LLM  
 **Authoritative language**: Japanese
 
-> The Japanese original above is authoritative. This English section is a condensed downstream summary projection, not a full line-by-line translation.
 
-## Theory-state rule
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`## Theory-state rule
 
 This document is a time- and version-bounded public Projection. Its definitions of Science, Engineering, cognition, metacognition, Cognitive Engineering, and academic disciplines are fixed inside v0.4 so the document can be audited, but they are not promoted into immutable categories of the world-itself.
 
