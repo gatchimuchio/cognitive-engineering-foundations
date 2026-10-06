@@ -7,6 +7,8 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
+
 > **位置づけ**：本稿は特殊相対性理論・一般相対性理論の観測的成功や数理的整合性を否定するものではない。認知工学から、「時間」「空間」「時空」「座標」「観測者」という対象がどのように切り出され、どこから存在論へ昇格しているかを監査する。
 
 ---
@@ -290,9 +292,19 @@
 
 # Cognitive-Engineering Audit of Time and Space in Relativity
 
-**Version**: v0.1
+**Version**: v0.1  
+**Revision date**: 2026-10-07  
+**Author**: がっちむち♂  
+**Writing assistance**: LLM  
+**Authoritative language**: Japanese
 
-This paper does not reject the empirical or mathematical success of special or general relativity. It audits the ontological promotion of successful coordinate descriptions.
+
+
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`This paper does not reject the empirical or mathematical success of special or general relativity. It audits the ontological promotion of successful coordinate descriptions.
 
 Time and space are initially separated as different cognitive/audit roles: time concerns change, order, duration, history, and transition; space concerns location, arrangement, distance, direction, and locality.
 
