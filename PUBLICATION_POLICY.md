@@ -1,7 +1,12 @@
 # 公開・言語・命名・理論状態ポリシー
 ## Publication / Language / Naming / Theory-State Policy
 
-**版**：v1.3.5  
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Canonical Original (J0)  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive  
+
+**版**：v1.4.0  
 **改訂日**：2026-10-07  
 **著者**：がっちむち♂  
 **規定言語**：日本語  
@@ -12,32 +17,46 @@
 
 ---
 
-# 1. 日本語を基底・規定言語とする
+# 1. 日本語正本と翻訳制度
 
-本理論群では、日本語を唯一の基底言語・規定言語とする。
+本理論群では、日本語を唯一の基底言語・規定言語・意味上の正本とする。
+
+翻訳・要約射影・解説射影・作業翻訳の詳細な上下関係、権限、状態管理、用語ロック、残差管理は、`TRANSLATION_POLICY.md` を正とする。
+
+最小階層は次である。
 
 ```text
-日本語で理論生成
-→ 日本語で定義・構造化
-→ 日本語で監査・改訂
-→ 日本語原典成立
-→ 実務上必要な場合のみ多言語へ翻訳
+J0 日本語正本
+> T1 節対応全文翻訳
+> T2 要約射影
+> T3 解説射影
+> W  作業翻訳
 ```
 
-多言語版は日本語原典から生成された翻訳・射影であり、独立した正本ではない。
+**厳密な制度語として `Translation` と呼ぶのはT1だけ**とする。
 
-多言語部は、その実体に応じて次を明示する。
+T2/T3は翻訳ではなく下流Projectionである。
 
-- **Translation**：日本語原典と節・意味を対応させた全文翻訳
-- **Summary Projection**：日本語原典から要点を抽出した要約射影
+現行root 00〜12の英語部はすべて、
 
-要約を `Translation` と表示してはならない。現行00〜12の英語部は、全文対訳ではなく **English Summary Projection** として扱う。
+```text
+T2 / English Summary Projection
+```
 
-意味が衝突した場合、日本語原典を優先する。
+として扱う。
 
-翻訳時に未定義・意味衝突・関係欠落・説明不足が見つかった場合、翻訳側で勝手に補完せず、日本語原典を先に再監査・改訂する。
+意味衝突・定義衝突・関係衝突・翻訳残差が生じた場合、日本語正本を優先する。
 
----
+翻訳側で日本語原典の欠陥を発見した場合、英語側で勝手に補完せず、
+
+```text
+日本語へ差し戻し
+→ 日本語で監査・改訂
+→ 版更新
+→ 下流Projectionを再生成
+```
+
+の順序を採用する。
 
 # 2. 多言語使用条件
 
@@ -375,13 +394,13 @@ theory conformance / ethical boundary = each specification
 
 ---
 
-# English Translation
+# English Summary Projection
 
 ## Publication / Language / Naming / Theory-State Policy
 
 This policy governs the current public repository `cognitive-engineering-foundations`. The former name `closure-phase-specs` is historical only.
 
-Japanese is the sole base and normative language. Originals are established in Japanese before any downstream translation.
+Japanese is the sole base, normative, and authoritative language. Downstream language products follow TRANSLATION_POLICY.md: J0 Japanese Canonical Original > T1 Aligned Full Translation > T2 Summary Projection > T3 Explanatory Projection > W Working Translation. Only T1 is called a Translation in the strict policy sense.
 
 All current public theories use a common theory state:
 
