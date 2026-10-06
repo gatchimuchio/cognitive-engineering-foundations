@@ -1,6 +1,11 @@
 # 参考文献・座標合わせ
 ## References / Orientation Notes
 
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Canonical Original (J0)  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive  
+
 **著者**：がっちむち♂  
 **規定言語**：日本語  
 
@@ -174,7 +179,7 @@
 
 ---
 
-# English Translation
+# English Summary Projection
 
 ## References / Orientation Notes
 
