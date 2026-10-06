@@ -1,5 +1,13 @@
 # archive
 
+## 2026-10-07 T1全文英訳展開前スナップショット
+
+`legacy/2026-10-07/pre_t1_full_translation_rollout/` には、00〜12＋05Aの全14本へT1 / Aligned Full Translationを展開する直前のREADME・PUBLICATION_POLICY v1.4.3・TRANSLATION_POLICY v1.3を保存する。
+
+現行T1全文英訳は `translations/en/full/`、翻訳制度はrootの `TRANSLATION_POLICY.md` を正とする。
+
+
+
 ## 2026-10-07 翻訳階層見直し前スナップショット
 
 `legacy/2026-10-07/pre_translation_hierarchy_review/` には、J0/T1/T2/T3/W の翻訳ヒエラルキー導入前の README・公開ポリシー・参考文献を保存する。
