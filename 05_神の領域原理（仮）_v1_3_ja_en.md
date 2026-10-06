@@ -8,7 +8,7 @@
 **文章生成支援**：LLM  
 **原典言語**：日本語  
 
-> **言語規定**：本稿は日本語原典を正本とする。英語部は後段の Summary Projection であり、独立した正本ではない。
+> **翻訳階層規定**：Part I = J0 日本語正本。Part II = T2 / English Summary Projection。T2は全文翻訳ではなく、独立した正本・規定文書ではない。意味衝突・欠落・曖昧さ・翻訳残差がある場合はJ0を優先し、下流側で新規主張を補わない。詳細は `TRANSLATION_POLICY.md`。
 
 > **名称規定**：正式名称・略称ともに `（仮）` を保持する。これは未熟さではなく、本原理・本文書・現在分類を最終真理や完成記述へ固定しないための構造的ラベルである。
 
@@ -652,7 +652,11 @@ HDSとの関係は5.1を正とする。下位運用レイヤーという概念�
 **Writing assistance**: LLM  
 **Authoritative language**: Japanese  
 
-> This English section is a condensed downstream summary projection. The Japanese original is authoritative.
+**Translation class**: T2 / English Summary Projection  
+**Source authority**: Japanese Part I / J0  
+**Translation status**: CURRENT  
+**Authority**: Non-authoritative and non-exhaustive. It may omit detail and must not add normative claims. In conflict, ambiguity, omission, or translation residual, Japanese Part I prevails.  
+**Policy**: `TRANSLATION_POLICY.md`
 
 ## Core definition
 
