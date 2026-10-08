@@ -34,7 +34,7 @@ The shorter English sections embedded in the root `*_ja_en.md` files remain **T2
 | `07_トリニティ原理適用_ゲーム理論と均衡_v0_7_ja_en.md` | `07_Game_Theory_and_Equilibrium_v0_7_T1_en.md` | CURRENT |
 | `08_意識論_v0_1_ja_en.md` | `08_Theory_of_Consciousness_v0_1_T1_en.md` | CURRENT |
 | `09_認知工学適用_情報熱力学とマクスウェルの悪魔_v0_1_ja_en.md` | `09_Information_Thermodynamics_and_Maxwells_Demon_v0_1_T1_en.md` | CURRENT |
-| `10_認知工学適用_進化論とダーウィンの過ち_v0_1_ja_en.md` | `10_Evolution_and_Darwins_Error_v0_1_T1_en.md` | CURRENT |
+| `10_認知工学適用_進化論とダーウィンの過ち_v0_2_ja_en.md` | `10_Evolution_and_Darwins_Error_v0_2_T1_en.md` | CURRENT |
 | `11_認知工学適用_相対性理論における時間と空間_v0_1_ja_en.md` | `11_Time_and_Space_in_Relativity_v0_1_T1_en.md` | CURRENT |
 | `12_認知工学適用_量子重力問題の問題設定監査_v0_1_ja_en.md` | `12_Quantum_Gravity_Problem_Setting_Audit_v0_1_T1_en.md` | CURRENT |
 
