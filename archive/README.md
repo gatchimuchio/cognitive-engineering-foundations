@@ -1,5 +1,13 @@
 # archive
 
+## 2026-10-08 進化論・思考の汚染改定前スナップショット
+
+`legacy/2026-10-08/pre_thought_contamination_revision/` には、10番文書へ「思考の汚染」とダーウィンの理論提唱者責任を追加する前のJ0 v0.1とT1 v0.1を保存する。
+
+現行正本は10番v0.2、英語全文訳はT1 v0.2を参照する。
+
+
+
 ## 2026-10-07 T1全文英訳展開前スナップショット
 
 `legacy/2026-10-07/pre_t1_full_translation_rollout/` には、00〜12＋05Aの全14本へT1 / Aligned Full Translationを展開する直前のREADME・PUBLICATION_POLICY v1.4.3・TRANSLATION_POLICY v1.3を保存する。
