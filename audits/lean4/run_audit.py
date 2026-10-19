@@ -128,14 +128,24 @@ def execute(cmd: list[str], cwd: Path, label: str, timeout: int = 240) -> dict:
 def verdict(run: dict, expected: int | str, tokens: list[str] | None = None) -> str:
     if run.get("status") != "EXECUTED":
         return "FAIL_ENVIRONMENT"
+    txt = ((OUT / run["stdout_file"]).read_text(encoding="utf-8") +
+           (OUT / run["stderr_file"]).read_text(encoding="utf-8"))
+    text_lower = txt.lower()
+    # An exit-code 1 from a failed sandbox is NOT a proof-checker rejection.
+    if any(marker in text_lower for marker in (
+        "bwrap:", "permission denied", "operation not permitted",
+        "cannot create user namespace", "failed to create user namespace"
+    )):
+        return "FAIL_ENVIRONMENT_SANDBOX"
     rc = run["exit_code"]
     matches = rc == expected if isinstance(expected, int) else rc != 0
     if not matches:
         return "REVIEW_REQUIRED"
-    if tokens:
-        txt = ((OUT / run["stdout_file"]).read_text(encoding="utf-8") +
-               (OUT / run["stderr_file"]).read_text(encoding="utf-8"))
-        if not all(t.lower() in txt.lower() for t in tokens):
+    if tokens and not all(t.lower() in text_lower for t in tokens):
+        return "REVIEW_REQUIRED"
+    if "check" in run["command"] and expected == 1:
+        # A generic build/crash failure must not be counted as axiom rejection.
+        if not any(s in text_lower for s in ("axiom", "sorryax", "not allowed", "not permitted", "rejected")):
             return "REVIEW_REQUIRED"
     return "PASS_EXPECTED_OBSERVATION"
 
