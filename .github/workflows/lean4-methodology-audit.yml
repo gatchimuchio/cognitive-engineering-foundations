@@ -1,0 +1,42 @@
+name: Lean 4 Methodology Assurance Audit
+
+on:
+  push:
+    branches:
+      - audit/lean-methodology-20261020
+    paths:
+      - '.github/workflows/lean4-methodology-audit.yml'
+      - 'audits/lean4/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lean-assurance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Check out audit branch
+        uses: actions/checkout@v4
+      - name: Install Lean 4.35.0
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain leanprover/lean4:v4.35.0 --no-modify-path
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Prepare independent-check sandbox
+        run: sudo apt-get update && sudo apt-get install -y bubblewrap
+      - name: Record installed versions
+        run: |
+          lean --version
+          lake --version
+          python3 --version
+      - name: Execute audit cases and Lake checks
+        run: python3 audits/lean4/run_audit.py --lake
+      - name: Preserve actual observations
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lean4-methodology-audit-evidence
+          path: audit-output/
+          if-no-files-found: warn
+          retention-days: 30
