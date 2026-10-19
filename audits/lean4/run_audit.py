@@ -28,10 +28,10 @@ theorem increment_at_ten : increment 10 = 11 := by decide
 def authenticated : Bool := false
 def accessGranted : Bool := true
 def claimedCorrectness : Prop := accessGranted = true
-theorem acceptedWrongRequirement : claimedCorrectness := by decide
+theorem acceptedWrongRequirement : claimedCorrectness := by simp [claimedCorrectness, accessGranted]
 def actualRequirement : Prop :=
   authenticated = false → accessGranted = false
-theorem actualRequirementViolated : ¬ actualRequirement := by decide
+theorem actualRequirementViolated : ¬ actualRequirement := by simp [actualRequirement, authenticated, accessGranted]
 #print axioms acceptedWrongRequirement
 #print axioms actualRequirementViolated
 """, True, ["acceptedWrongRequirement", "actualRequirementViolated"]),
@@ -64,7 +64,7 @@ theorem intendedRuleSatisfied :
 """, False, ["error"]),
     ("C09_same_statement_supported", """
 def Safety : Prop := (true = true)
-theorem certified : Safety := by decide
+theorem certified : Safety := by simp [Safety]
 #print axioms certified
 """, True, ["certified"]),
     ("C10_same_statement_unsupported", """
@@ -99,9 +99,9 @@ PROJECTS = {
 def authenticated : Bool := false
 def accessGranted : Bool := true
 def mistakenProperty : Prop := accessGranted = true
-theorem proofOfMistakenProperty : mistakenProperty := by decide
+theorem proofOfMistakenProperty : mistakenProperty := by simp [mistakenProperty, accessGranted]
 theorem evidenceOfViolation :
-  ¬ (authenticated = false → accessGranted = false) := by decide
+  ¬ (authenticated = false → accessGranted = false) := by simp [authenticated, accessGranted]
 """, 0),
     "lax": ("""
 axiom falsePremise : False
