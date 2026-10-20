@@ -131,6 +131,10 @@ def verdict(run: dict, expected: int | str, tokens: list[str] | None = None) -> 
     txt = ((OUT / run["stdout_file"]).read_text(encoding="utf-8") +
            (OUT / run["stderr_file"]).read_text(encoding="utf-8"))
     text_lower = txt.lower()
+    # A subprocess panic is an abnormal failure even when a rejecting exit code was expected.
+    # A successful overall Actions badge does not certify all independent checkers.
+    if "panicked at" in text_lower or "thread in " in text_lower and "panicked" in text_lower:
+        return "REVIEW_REQUIRED_VERIFIER_PANIC"
     # An exit-code 1 from a failed sandbox is NOT a proof-checker rejection.
     if any(marker in text_lower for marker in (
         "bwrap:", "permission denied", "operation not permitted",
