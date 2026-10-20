@@ -142,3 +142,27 @@ Lean が有用な検査操作を実装していることと、そこから「完
 - Lean 4.35.0 — [Release Notes](https://lean-lang.org/doc/reference/latest/releases/v4.35.0/)
 
 本記録の版と監査対象の版を混同しない。オンライン最新版の記述は実機 Lean 4.35.0 の実測ログによって確認する。
+
+---
+
+## 追記：第四次の最終実測（2026-10-20）
+
+**追記の理由**：本書の初回保存時に「実行中／未観測」だった第四次の終了結果が確定したため、その当時の状態の記述は保持したまま、後続観測を追加記録する。
+
+- **実行**：[GitHub Actions Run 39352462392](https://github.com/gatchimuchio/cognitive-engineering-foundations/actions/runs/39352462392)
+- **検査コミット**：`bd39f398f6c3c9d658af722c3ea4dd2ea71b583d`
+- **状態**：`completed`
+- **Actions 最終結論**：`failure`
+- **14単体ケース**：14/14 `PASS_EXPECTED_OBSERVATION`。形式的受理・拒否は全件、有限の期待値に一致。
+- **strict**：`lake update`、`lake build`、`lake check`、`lake check --paranoid` すべて `PASS_EXPECTED_OBSERVATION`（終了コード0）。
+- **lax / incomplete**：両プロジェクトとも `lake update`・`lake build` 成功、`lake check` は予期した終了コード1で不許可の公理依存を検出。
+- **lax / incomplete の `--paranoid`**：両方 `REVIEW_REQUIRED_VERIFIER_PANIC`（終了コード1）。第三次と同型の、独立検証器の `panic` を正常拒否と混同しない修正済み判定器で識別できた。
+- **全体状態**：`REVIEW_REQUIRED_OR_ENVIRONMENT_FAILURE`（スクリプトの集約ラベル。ログ上の具体的要因は上記2件の `VERIFIER_PANIC`）。
+
+**工学的判定の更新**：第三次に混入した「終了コード1なら予期した拒否」という採点の不備は修正され、第四次で異常終了を正しく検出した。これにより**独立検証器の異常終了という品質上の事象が再確認された**。一方、Lean の基本カーネルが不正な証明を受理したことや、`panic` の詳細な原因・影響の全体はこの実測では確定していない。
+
+**最上位監査への接続**：上記の実機観測は、文字・記号の完全性から形式的証明の完全な正当性を認定する根拠そのものにはならない。元の問いを形式体系の別の完全性概念に置換しない。
+
+第四次の出力記録：[Actions artifact #12234925678](https://github.com/gatchimuchio/cognitive-engineering-foundations/actions/runs/39352462392/artifacts/12234925678)（保存期間設定30日）／アップロード時表示 SHA-256 `7b80a065692664acdb561d303eea9adde5e1f0ecf2229343ff034e68d95d4948`。
+
+**完了判定**：第四次の実行と結果採取は完了。監査案件としては「単体検査PASS、独立検証器異常終了REVIEW_REQUIRED、正当化の根拠については未確定」の状態を保持する。
